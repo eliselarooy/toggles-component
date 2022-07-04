@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Toggle from './Toggle';
+import './Toggles.css';
 
 const TogglesContainer = ({ sampleQuestion }) => {
   const { question, toggles } = sampleQuestion;
