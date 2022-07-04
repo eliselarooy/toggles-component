@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { sampleQuestion } from './sampleQuestion';
 import Toggle from './Toggle';
 
-const TogglesContainer = () => {
+const TogglesContainer = ({ sampleQuestion }) => {
   const { question, toggles } = sampleQuestion;
   const [correctCount, setCorrectCount] = useState(0);
 
