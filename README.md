@@ -22,7 +22,6 @@ const exampleQuestion = {
 
 ## Limitations
 
-- The component currently only takes in 2 options per toggle. 
 - The background colour does not change in proportion to how "correct" the answer is. 
 - The toggles do not lock once the correct answer has been reached. 
 
